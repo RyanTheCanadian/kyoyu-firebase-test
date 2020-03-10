@@ -1,0 +1,239 @@
+/*.backgroundimg {
+  z-index: -99;
+  width: 100%;
+  position: absolute;
+  object-fit: contain;
+  filter: brightness(100%);
+}*/
+
+/*.backgroundimg img {
+  width: 100%;
+}*/
+
+#bgpage1 {
+  margin-top: -20px;
+  filter: brightness(0.8) contrast(1.5);
+}
+
+.motto {
+  line-height: 100px;
+  cursor: default;
+}
+
+.motto p {
+  font-size: 100px;
+  letter-spacing: 3px;
+  font-weight: 500;
+  text-align: left;
+  color: white;
+}
+
+.motto p1 {
+  font-size: 30px;
+  letter-spacing: 3px;
+  font-weight: 400;
+  color: white;
+}
+
+.wrapper2 {
+  height: 150vh;
+  background-color: black;
+  color: white;
+}
+
+.introduction {
+  margin-top: 300px;
+}
+
+.introduction p {
+  font-size: 60px;
+  text-align: left;
+  font-weight: 500;
+}
+
+.introtext {
+  filter: brightness(100%);
+}
+
+.introtext p {
+  font-size: 25px;
+  text-align: justify;
+  letter-spacing: 3px;
+}
+
+.aboutbutton {
+  margin-top: 20px;
+}
+
+.aboutbutton a {
+  font-size: 25px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-width: 2px;
+  border-color: white;
+  border-style: solid;
+  width: 250px;
+  text-align: center;
+  letter-spacing: 2px;
+  transition: 0.4s;
+  cursor: pointer;
+  text-decoration: none;
+  color: white;
+}
+
+.aboutbutton a:hover {
+  background-color: white;
+  color: black;
+  transition: 0.4s;
+  text-decoration: none;
+}
+
+.wrapper2img img {
+  z-index: 1;
+  position: absolute;
+  right: 5%;
+  margin-top: -250px;
+  width: 600px;
+}
+
+.wrapper2img2 img {
+  z-index: 2;
+  position: absolute;
+  left: 35%;
+  margin-top: 170px;
+  width: 700px;
+}
+
+.kyoyutext {
+  position: absolute;
+  background-color: white;
+  right: 5%;
+  margin-top: 300px;
+  z-index: 3;
+}
+
+.kyoyutext p {
+  color: black;
+  font-size: 25px;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: right;
+  font-weight: 500;
+  letter-spacing: 3px;
+  padding-top: 50px;
+}
+
+.kyoyutext1 {
+  position: absolute;
+  background-color: white;
+  right: 5%;
+  margin-top: 450px;
+  z-index: 3;
+}
+
+.kyoyutext1 p {
+  color: black;
+  font-size: 25px;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: right;
+  font-weight: 500;
+  letter-spacing: 3px;
+  padding-top: 50px;
+}
+
+.wrapper3 {
+  height: 100vh;
+  background-color: black;
+}
+
+.wrapper3 marquee {
+  color: white;
+  font-size: 120px;
+  font-weight: 600;
+  letter-spacing: 10px;
+}
+
+.contacttext {
+  color: black;
+  font-size: 30px;
+  margin-top: 80px;
+  padding-top: 30px;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 30px;
+  background-color: white;
+  width: 700px;
+  height: 400px;
+  letter-spacing: 2px;
+  text-align: center;
+}
+
+.contactbutton {
+  margin-top: 20px;
+}
+
+.contactbutton a {
+  font-size: 25px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-width: 2px;
+  border-color: black;
+  border-style: solid;
+  width: 250px;
+  text-align: center;
+  letter-spacing: 2px;
+  transition: 0.4s;
+  cursor: pointer;
+  text-decoration: none;
+  color: black;
+}
+
+.contactbutton a:hover {
+  background-color: black;
+  color: white;
+  transition: 0.4s;
+  text-decoration: none;
+}
+
+.kyoyutext2 {
+  position: absolute;
+  background-color: white;
+  right: 0%;
+  margin-top: -200px;
+  z-index: 3;
+}
+
+.kyoyutext2 p {
+  color: black;
+  font-size: 25px;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: right;
+  font-weight: 500;
+  letter-spacing: 3px;
+  padding-top: 50px;
+}
+
+.kyoyutext3 {
+  position: absolute;
+  background-color: white;
+  right: 5%;
+  margin-top: -330px;
+  z-index: 3;
+}
+
+.kyoyutext3 p {
+  color: black;
+  font-size: 25px;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: right;
+  font-weight: 500;
+  letter-spacing: 3px;
+  padding-top: 50px;
+}
