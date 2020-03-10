@@ -1,15 +1,25 @@
-<head>
-  <link type="text/css" rel="stylesheet" href="https://cdn.firebase.com/libs/firebaseui/4.0.0/firebaseui.css" />
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700|Roboto:300,400,700&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-</head>
-<section id="event-details-container">
-      <h1>Firebase Meetup</h1>
+<!DOCTYPE html>
+<html>
+  <head>
+    <link type="text/css" rel="stylesheet" href="https://cdn.firebase.com/libs/firebaseui/4.0.0/firebaseui.css" />
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700|Roboto:300,400,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
 
-      <p><i class="material-icons">calendar_today</i> October 30</p>
-      <p><i class="material-icons">location_city</i> San Francisco</p>
-    
-      <button id="startRsvp">RSVP</button>
+<body>
+<div class="container">
+  <input id="txtEmail" type="email" placeholder="Email">
+  <input id="txtPassword" type="password" placeholder="Password">
+  <button id="btnLogin" class="btn btn-action">
+    Log In 
+  </button>
+  <button id="btnLogout" class="btn btn-action hide">
+    Log Out
+  </button>
+</div>
 
-  </section>
+<script src="apps.js"></script>
+ 
+</body>
+</html>
